@@ -1,9 +1,9 @@
+import React from 'react'
+import Jumbotron from './components/jumbotron'
 
-
-function App() {
+export default function App() {
   return (
-    <h1>hi</h1>
+    <Jumbotron />
   );
 }
 
-export default App;
